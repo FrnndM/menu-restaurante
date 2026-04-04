@@ -7,7 +7,7 @@ export const RESTAURANTE = {
   slogan: "Sabores que cuentan historias",
   whatsapp: "593983447710", // ← CAMBIA este número (con código de país, sin +)
   horario: "Mar–Dom: 12:00 – 22:00",
-  direccion: "Av. Amazonas y Patria, Quito",
+  direccion: "Av. Amazonas y Patria, Quito-Ecuador",
 }
 
 export const CATEGORIAS = [
