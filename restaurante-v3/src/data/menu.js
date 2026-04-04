@@ -1,0 +1,110 @@
+export const RESTAURANTE = {
+  nombre: "La Mesa",
+  subtitulo: "Alta Cocina · Bar · Quito",
+  slogan: "Donde Ecuador se encuentra con el mundo",
+  whatsapp: "593999999999",
+  horario: "Lun–Jue 12:00–23:00 · Vie–Sáb 12:00–01:00 · Dom 12:00–21:00",
+  direccion: "Av. República del Salvador N34-183, La Floresta, Quito",
+  instagram: "@lamesa.quito",
+  reservas: "reservas@lamesa.com.ec",
+}
+
+export const HISTORIA = {
+  titulo: "Una historia de sabor y pasión",
+  parrafos: [
+    "Todo comenzó en 1998 cuando el Chef Eduardo Morales regresó de París con un sueño: traer la alta cocina europea a su tierra natal, pero con el alma ecuatoriana intacta. En su maleta no solo trajo técnicas aprendidas en los mejores restaurantes del mundo, sino también la convicción de que los ingredientes andinos merecían brillar en una mesa de cinco estrellas.",
+    "La Mesa abrió sus puertas en el corazón del norte de Quito con apenas ocho mesas y una carta de diez platos. Hoy, más de 25 años después, se ha convertido en el destino gastronómico preferido de empresarios, diplomáticos y viajeros que buscan una experiencia que vaya más allá de la comida.",
+    "Cada plato es un viaje: desde los páramos de Cotopaxi hasta las costas del Pacífico, pasando por los mercados de Otavalo y los cacaotales de Manabí. Aquí, la tradición y la innovación no son opuestos — son los dos ingredientes más importantes de nuestra cocina.",
+  ],
+  quote: "«Cocinar es el arte más generoso del mundo. No existe otra forma de crear algo tan efímero y tan memorable a la vez.»",
+  autor: "— Chef Eduardo Morales, Fundador",
+}
+
+export const CATEGORIAS = [
+  {
+    id: "experiencias",
+    nombre: "Experiencias",
+    tag: "CHEF'S TABLE",
+    emoji: "⭐",
+    descripcion: "Creaciones exclusivas de nuestro chef ejecutivo",
+    color: "#C0622A",
+    items: [
+      { id:1, nombre:"Ceviche Imperial", descripcion:"Camarón tigre, leche de tigre con ají amarillo, cancha serrana, coral de calamar tostado, microgreens andinos", precio:28, popular:true, estrella:true, badge:"Signature", img:"https://images.unsplash.com/photo-1535400255456-984e5a9ea7ce?w=800&q=85", maridaje:"Maridaje: Albariño Rías Baixas" },
+      { id:2, nombre:"Lomo Black Angus 5★", descripcion:"Lomo fino 300g, reducción de Malbec, puré trufado, espárragos salteados en mantequilla de hierbas", precio:52, popular:true, estrella:true, badge:"Premium", img:"https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800&q=85", maridaje:"Maridaje: Catena Zapata Malbec" },
+      { id:3, nombre:"Trucha del Páramo Gourmet", descripcion:"Trucha andina, beurre blanc de maracuyá, risotto de quinua negra, microgreens de la huerta propia", precio:38, estrella:true, badge:"Local Premium", img:"https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=85", maridaje:"Maridaje: Chardonnay Borgoña" },
+      { id:4, nombre:"Langosta Thermidor", descripcion:"Media langosta del Pacífico, salsa thermidor clásica, papas dauphine al horno, rúcula con limón", precio:68, badge:"Mar & Tierra", img:"https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=800&q=85", maridaje:"Maridaje: Chablis Premier Cru" },
+    ]
+  },
+  {
+    id: "ecuatoriana",
+    nombre: "Ecuador Gourmet",
+    tag: "HERENCIA & SABOR",
+    emoji: "🇪🇨",
+    descripcion: "Recetas ancestrales con técnica contemporánea",
+    color: "#A8501F",
+    items: [
+      { id:5, nombre:"Seco de Pato Ancestral", descripcion:"Pato criollo, chicha de jora reducida, cilantro de páramo, arroz con hierba luisa, patacones crujientes", precio:24, popular:true, badge:"Tradicional", img:"https://images.unsplash.com/photo-1574484284002-952d92456975?w=800&q=85" },
+      { id:6, nombre:"Hornado Contemporáneo", descripcion:"Lechón de cerdo negro de Riobamba, llapingachos de quinua, mote pillo, ají de tomate de árbol artesanal", precio:22, popular:true, badge:"Favorito", img:"https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=800&q=85" },
+      { id:7, nombre:"Encebollado de Albacora", descripcion:"Albacora del Pacífico fresca, yuca crocante, encurtido de cebolla morada, ají criollo, chifles de plátano verde", precio:18, img:"https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=85" },
+      { id:8, nombre:"Locro de Papa Trufado", descripcion:"Papa chola ecuatoriana, queso fresco de Cayambe, aguacate Hass maduro, aceite de trufa negra importada", precio:16, badge:"Vegetariano ✓", img:"https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=800&q=85" },
+    ]
+  },
+  {
+    id: "entradas",
+    nombre: "Entradas & Tapas",
+    tag: "PARA COMPARTIR",
+    emoji: "🥂",
+    descripcion: "Bocados elegantes para iniciar la velada",
+    color: "#D4922B",
+    items: [
+      { id:9, nombre:"Tabla de Quesos Andinos", descripcion:"5 quesos artesanales ecuatorianos, miel de abeja de páramo, nueces confitadas, mermelada de higo negro", precio:22, popular:true, img:"https://images.unsplash.com/photo-1452195100486-9cc805987862?w=800&q=85" },
+      { id:10, nombre:"Tiradito de Atún Rojo", descripcion:"Atún bluefin, leche de tigre de coco, tobiko de trucha, aceite de ají amarillo, microgreens de betabel", precio:26, badge:"Nuevo ✦", img:"https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=85" },
+      { id:11, nombre:"Croquetas de Cangrejo", descripcion:"Cangrejo del Pacífico ecuatoriano, alioli de ajo negro, ensalada fresca de hinojo y naranja sanguina", precio:18, img:"https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=85" },
+      { id:12, nombre:"Foie Gras con Uvilla", descripcion:"Hígado de pato marinado, brioche artesanal tostado, chutney de uvilla andina, flor de sal del Pacífico", precio:32, badge:"Delicatessen", img:"https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=85" },
+    ]
+  },
+  {
+    id: "cocteleria",
+    nombre: "Coctelería",
+    tag: "BAR ARTESANAL",
+    emoji: "🍸",
+    descripcion: "Cócteles con ingredientes andinos y técnica de autor",
+    color: "#C0622A",
+    items: [
+      { id:13, nombre:"Ecuatorial Sour", descripcion:"Pisco peruano artesanal, jugo de naranjilla fresca, clara de huevo, bitters de chocolate, espuma andina de albahaca", precio:14, popular:true, badge:"Signature", img:"https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=800&q=85" },
+      { id:14, nombre:"Páramo Negroni", descripcion:"Gin botánico andino con 7 hierbas, vermut rojo artesanal, Campari, esfera de hielo tallada, piel de naranja ahumada", precio:16, popular:true, img:"https://images.unsplash.com/photo-1609951651556-5334e2706168?w=800&q=85" },
+      { id:15, nombre:"Canelazo Imperial", descripcion:"Aguardiente de caña artesanal de Loja, canela de Ceilán, clavo de olor, naranjilla, panela orgánica de Manabí", precio:12, badge:"Tradicional", img:"https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=85" },
+      { id:16, nombre:"Maracuyá Espumoso", descripcion:"Champagne brut francés, licor de maracuyá artesanal, espuma de lemongrass, pétalos de rosa comestible", precio:18, img:"https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=85" },
+      { id:17, nombre:"Old Fashioned Andino", descripcion:"Whisky 12 años Single Malt, jarabe de panela artesanal, bitters de café de altura de Loja, esfera de hielo, piel de naranja", precio:17, img:"https://images.unsplash.com/photo-1582819509237-d5b75f20ff7a?w=800&q=85" },
+      { id:18, nombre:"Mocktail Amazónico", descripcion:"Agua de coco puro, guanábana fresca, jengibre orgánico, albahaca, agua tónica premium · 0% alcohol", precio:10, badge:"Sin alcohol", img:"https://images.unsplash.com/photo-1544145945-f90425340c7e?w=800&q=85" },
+    ]
+  },
+  {
+    id: "vinos",
+    nombre: "Vinos & Bar",
+    tag: "CARTA DE VINOS",
+    emoji: "🍷",
+    descripcion: "Selección curada de las mejores bodegas del mundo",
+    color: "#5C3317",
+    items: [
+      { id:19, nombre:"Catena Zapata Malbec", descripcion:"Mendoza, Argentina · Notas de ciruela negra, chocolate amargo y cedro · Copa $14 · Botella $65", precio:14, badge:"Copa disponible", img:"https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=85" },
+      { id:20, nombre:"Veuve Clicquot Brut", descripcion:"Champagne, Francia · Botella 750ml · Burbujas finas persistentes, notas de brioche, pera y frutos amarillos", precio:120, popular:true, badge:"Champagne", img:"https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=85" },
+      { id:21, nombre:"Macallan 12 Single Malt", descripcion:"Speyside, Escocia · 60ml · Caramelo toffee, vainilla cremosa, frutas secas, roble americano tostado", precio:22, badge:"Whisky Premium", img:"https://images.unsplash.com/photo-1582819509237-d5b75f20ff7a?w=800&q=85" },
+      { id:22, nombre:"Sangría de la Casa", descripcion:"Vino tinto español Tempranillo, frutas de temporada andinas, canela, brandy, soda artesanal · Jarra para 2", precio:28, img:"https://images.unsplash.com/photo-1504275107627-0c2ba7a43dba?w=800&q=85" },
+    ]
+  },
+  {
+    id: "postres",
+    nombre: "Postres & Café",
+    tag: "FINALE DOLCE",
+    emoji: "🍮",
+    descripcion: "El cierre perfecto para una velada inolvidable",
+    color: "#D4922B",
+    items: [
+      { id:23, nombre:"Volcán de Cacao Arriba", descripcion:"Chocolate nacional fino de aroma 75%, centro fundido, helado de vainilla tahitiana, polvo de oro comestible", precio:16, popular:true, estrella:true, badge:"Bestseller", img:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=85" },
+      { id:24, nombre:"Crème Brûlée de Uvilla", descripcion:"Crema de uvilla andina caramelizada con soplete, compota de frutos rojos del bosque, galleta de canela", precio:13, img:"https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=85" },
+      { id:25, nombre:"Café de Altura con Petit Fours", descripcion:"Café de especialidad de Loja tostado en casa, selección de 4 petit fours de chocolate ecuatoriano artesanal", precio:11, img:"https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=85" },
+      { id:26, nombre:"Tabla de Postres para Dos", descripcion:"Volcán de chocolate, crème brûlée, macarons andinos, trufas de cacao Arriba, fresas del Valle con crema chantilly", precio:32, badge:"Para 2 personas", img:"https://images.unsplash.com/photo-1550617931-e17a7b70dce2?w=800&q=85" },
+    ]
+  },
+]
