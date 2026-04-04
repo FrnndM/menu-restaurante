@@ -2,7 +2,7 @@ export const RESTAURANTE = {
   nombre: "La Mesa",
   subtitulo: "Alta Cocina · Bar · Quito",
   slogan: "Donde Ecuador se encuentra con el mundo",
-  whatsapp: "593999999999", // ← CAMBIA este número
+  whatsapp: "593983447710", // ← CAMBIA este número
   horario: "Lun–Jue 12:00–23:00 · Vie–Sáb 12:00–01:00 · Dom 12:00–21:00",
   direccion: "Av. República del Salvador N34-183, La Floresta, Quito",
   instagram: "@lamesa.quito",
